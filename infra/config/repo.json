@@ -28,5 +28,113 @@
   },
   "readme": {
     "max_lines": 80
+  },
+  "files": {
+    "infra_max_file_mb": 1,
+    "rules": {
+      "": {
+        "allow_names": [
+          "README.md",
+          "AGENTS.md",
+          ".gitignore",
+          ".gitattributes",
+          ".dockerignore",
+          "VERSION",
+          "CHANGELOG.md",
+          "LICENSE",
+          "SECURITY.md"
+        ],
+        "allow_globs": []
+      },
+      "docs/": {
+        "allow_extensions": [
+          ".md"
+        ],
+        "allow_names": [
+          ".gitkeep"
+        ]
+      },
+      "src/": {
+        "allow_extensions": [
+          ".json"
+        ],
+        "allow_names": [
+          ".gitkeep"
+        ]
+      },
+      "infra/config/": {
+        "allow_extensions": [
+          ".json"
+        ]
+      },
+      "infra/scripts/": {
+        "allow_extensions": [
+          ".sh"
+        ],
+        "allow_names": [
+          ".gitkeep"
+        ]
+      },
+      "infra/docker/": {
+        "allow_globs": [
+          "*.dockerfile"
+        ]
+      },
+      ".gitea/workflows/": {
+        "allow_extensions": [
+          ".yml",
+          ".yaml"
+        ]
+      },
+      ".gitea/issue_template/": {
+        "allow_extensions": [
+          ".md",
+          ".yml",
+          ".yaml"
+        ]
+      },
+      ".gitea/": {
+        "allow_names": [
+          "pull_request_template.md"
+        ]
+      },
+      ".gitea/scoped_workflows/": {
+        "allow_extensions": [
+          ".yml",
+          ".yaml"
+        ]
+      }
+    },
+    "forbid": [
+      {
+        "regex": "(^|/)[^/]*\\.md$",
+        "reason": "Markdown is allowed only in docs/, README.md, and AGENTS.md",
+        "allow": [
+          "^README\\.md$",
+          "^AGENTS\\.md$",
+          "^docs/",
+          "^\\.gitea/issue_template/",
+          "^\\.gitea/pull_request_template\\.md$",
+          "^CHANGELOG\\.md$",
+          "^SECURITY\\.md$"
+        ]
+      },
+      {
+        "regex": "^infra/data/",
+        "reason": "infra/data is retired; use src/data"
+      },
+      {
+        "regex": "^infra/.*\\.(pdf|png|jpg|jpeg|gif|webp|mp4|mp3|zip|gz|tar|7z)$",
+        "reason": "infra is repository management only"
+      },
+      {
+        "regex": "^\\.github/",
+        "reason": "GitHub is not a source"
+      },
+      {
+        "regex": "^\\.gitlab-ci\\.yml$",
+        "reason": "GitLab is not a source"
+      }
+    ]
   }
 }

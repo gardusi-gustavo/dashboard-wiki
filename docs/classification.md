@@ -38,6 +38,7 @@ These stay in `private/private` and must not be copied here:
 | `staging.md` | local media workflow |
 | `src/data/bookmarks/` | personal links |
 | `src/data/tasks/` | personal task state |
+| `theories/thoughts.md` | personal DID and mental-health reflection |
 
 ## Rule
 
