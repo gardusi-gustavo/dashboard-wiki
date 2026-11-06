@@ -1,0 +1,32 @@
+{
+  "schema": 1,
+  "name": "wiki",
+  "organization": "dashboards",
+  "layer": 3,
+  "depends_on": [],
+  "consumers": [],
+  "data_classification": "public",
+  "visibility": "public",
+  "template": {
+    "ref": "0.3.2"
+  },
+  "publish": [],
+  "hubs": {
+    "practice": 1,
+    "automation": 2
+  },
+  "ci": {
+    "profile": "universal"
+  },
+  "features": {
+    "pages": false
+  },
+  "limits": {
+    "repo_mb": 100,
+    "file_mb": 25,
+    "max_symlinks": 0
+  },
+  "readme": {
+    "max_lines": 80
+  }
+}
