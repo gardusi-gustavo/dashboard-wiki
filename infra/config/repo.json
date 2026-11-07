@@ -103,6 +103,13 @@
           ".yml",
           ".yaml"
         ]
+      },
+      "docs/issues/": {
+        "allow_extensions": [
+          ".json",
+          ".md"
+        ],
+        "allow_names": []
       }
     },
     "forbid": [

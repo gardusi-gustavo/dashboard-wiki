@@ -18,3 +18,6 @@ Public-safe reference and media notes.
 
 Sensitive pages live in `private/private`. See
 [`classification.md`](classification.md) for the split.
+
+- [Local issues](issues/README.md)
+- Self-containment: `repository/self-contained.md`
