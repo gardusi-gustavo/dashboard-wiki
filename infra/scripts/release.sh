@@ -18,7 +18,7 @@ version="$(tr -d '[:space:]' < VERSION)"
 }
 
 [[ "$(id -un)" == "kapetao" ]] || {
-  echo "error: release must run as kapetao; v* tags are protected" >&2
+  echo "error: release must run as kapetao (Gitea gardusi-gustavo); v* tags are protected" >&2
   exit 2
 }
 [[ -z "$(git status --porcelain)" ]] || {
