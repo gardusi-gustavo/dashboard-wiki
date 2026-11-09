@@ -6,7 +6,7 @@ household runbooks.
 ## Status
 
 Public. This is the audited public subset of the former private wiki. Sensitive
-pages remain in `private/private`.
+pages remain in `gardusi-gustavo/private`.
 
 ## Layout
 
@@ -28,7 +28,7 @@ pages remain in `private/private`.
 
 - Public-safe content only.
 - No addresses, income, balances, health records, credentials, or life events.
-- No links to private cases or `private/private`.
+- No links to private cases or `gardusi-gustavo/private`.
 - See [`docs/classification.md`](docs/classification.md) for the split.
 
 ## Validation

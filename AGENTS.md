@@ -10,7 +10,7 @@
 
 This repository is the public wiki. It contains public-safe reference and media
 notes only. Sensitive records, cases, and private context stay in
-`private/private`.
+`gardusi-gustavo/private`.
 
 ## Rules
 

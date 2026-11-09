@@ -26,7 +26,7 @@ This manifest records what is public in this repository and what stays private.
 
 ## Private
 
-These stay in `private/private` and must not be copied here:
+These stay in `gardusi-gustavo/private` and must not be copied here:
 
 | Section | Reason |
 | --- | --- |

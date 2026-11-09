@@ -16,7 +16,7 @@ Public-safe reference and media notes.
 | `reference/` | tools, finance, health, career, sport |
 | `tasks/` | recurring playbooks |
 
-Sensitive pages live in `private/private`. See
+Sensitive pages live in `gardusi-gustavo/private`. See
 [`classification.md`](classification.md) for the split.
 
 - [Local issues](issues/README.md)
