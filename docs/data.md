@@ -1,6 +1,8 @@
 # Data
 
-Copied from the previous catalog on 2026-11-01.
+The source of truth is now `gardusi-gustavo/database` under
+`data/playlists/`. The checked-in `src/data/` tree is a legacy mirror and a
+build-time fallback during the migration.
 
 | File | Holds |
 | --- | --- |

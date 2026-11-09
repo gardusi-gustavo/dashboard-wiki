@@ -21,7 +21,7 @@ pages remain in `private/private`.
 | `docs/home/` | generic housing, plant, and household runbooks |
 | `docs/reference/` | tools, finance, health, career, and sport reference |
 | `docs/tasks/` | recurring playbooks |
-| `src/data/playlists/` | media catalog JSON |
+| `src/data/playlists/` | legacy media catalog mirror; database is authoritative |
 | `src/data/schema/` | catalog schema |
 
 ## Rules
