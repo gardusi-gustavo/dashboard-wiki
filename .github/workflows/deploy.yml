@@ -16,6 +16,6 @@ concurrency:
   cancel-in-progress: false
 jobs:
   deploy:
-    uses: gardusi-gustavo/devops/.github/workflows/pages.yml@v0.1.0
+    uses: gardusi-gustavo/workflow-devops/.github/workflows/pages.yml@v0.1.0
     with:
       build_command: bash infra/scripts/pages.sh
