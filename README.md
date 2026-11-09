@@ -21,6 +21,7 @@ pages remain in `gardusi-gustavo/private`.
 | `docs/home/` | generic housing, plant, and household runbooks |
 | `docs/reference/` | tools, finance, health, career, and sport reference |
 | `docs/tasks/` | recurring playbooks |
+| `docs/system-design/` | architecture examples, AWS drills, and interview topics |
 | `src/data/playlists/` | legacy media catalog mirror; database is authoritative |
 | `src/data/schema/` | catalog schema |
 

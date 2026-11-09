@@ -1,0 +1,18 @@
+{
+  "rank": "2.3",
+  "title": "Add AWS drill navigation",
+  "context": "The AWS examples need a compact index.",
+  "limits": {
+    "max_commits": 5,
+    "max_file_changes": 4
+  },
+  "spec": {
+    "summary": "Add an AWS drill index and cross-links.",
+    "expected_outcome": "A reader can choose an AWS drill by service.",
+    "acceptance_criteria": [
+      "Index covers every AWS file",
+      "Links are relative"
+    ]
+  },
+  "attempts": []
+}

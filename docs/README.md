@@ -15,9 +15,12 @@ Public-safe reference and media notes.
 | `home/` | generic household runbooks |
 | `reference/` | tools, finance, health, career, sport |
 | `tasks/` | recurring playbooks |
+| `system-design/` | architecture examples, AWS drills, and interview topics |
 
 Sensitive pages live in `gardusi-gustavo/private`. See
 [`classification.md`](classification.md) for the split.
 
 - [Local issues](issues/README.md)
 - Self-containment: `repository/self-contained.md`
+
+- [System design](system-design/README.md)

@@ -1,0 +1,18 @@
+{
+  "rank": "1.5",
+  "title": "Index the system design topics",
+  "context": "The imported architecture docs need a portal entry point.",
+  "limits": {
+    "max_commits": 5,
+    "max_file_changes": 4
+  },
+  "spec": {
+    "summary": "Add topic and example indexes to the wiki build.",
+    "expected_outcome": "A reader can navigate system design from the wiki.",
+    "acceptance_criteria": [
+      "Index links resolve",
+      "Topics are grouped by domain"
+    ]
+  },
+  "attempts": []
+}
