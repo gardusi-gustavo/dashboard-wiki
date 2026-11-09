@@ -22,6 +22,9 @@ pages remain in `gardusi-gustavo/private`.
 | `docs/reference/` | tools, finance, health, career, and sport reference |
 | `docs/tasks/` | recurring playbooks |
 | `docs/system-design/` | architecture examples, AWS drills, and interview topics |
+| `docs/lottery/` | lottery data notes |
+| `docs/markets/` | B3 market notes |
+| `docs/news/` | curated news notes |
 | `src/data/playlists/` | legacy media catalog mirror; database is authoritative |
 | `src/data/schema/` | catalog schema |
 
