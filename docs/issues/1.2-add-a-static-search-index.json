@@ -1,0 +1,18 @@
+{
+  "rank": "1.2",
+  "title": "Add a static search index",
+  "context": "The wiki has no search.",
+  "limits": {
+    "max_commits": 5,
+    "max_file_changes": 4
+  },
+  "spec": {
+    "summary": "Generate a search index at build time.",
+    "expected_outcome": "A reader can search titles and headings.",
+    "acceptance_criteria": [
+      "Index is deterministic",
+      "Search works without a backend"
+    ]
+  },
+  "attempts": []
+}

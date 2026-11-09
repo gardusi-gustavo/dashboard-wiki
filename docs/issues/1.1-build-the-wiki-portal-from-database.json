@@ -1,0 +1,18 @@
+{
+  "rank": "1.1",
+  "title": "Build the wiki portal from database",
+  "context": "The portal does not yet have a build-time data contract.",
+  "limits": {
+    "max_commits": 5,
+    "max_file_changes": 4
+  },
+  "spec": {
+    "summary": "Build docs and the media catalog from database.",
+    "expected_outcome": "The portal builds from a pinned database checkout.",
+    "acceptance_criteria": [
+      "No runtime database call",
+      "Build fails on missing data"
+    ]
+  },
+  "attempts": []
+}

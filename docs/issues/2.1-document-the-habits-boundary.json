@@ -1,0 +1,18 @@
+{
+  "rank": "2.1",
+  "title": "Document the habits boundary",
+  "context": "The public/private habits boundary is implicit.",
+  "limits": {
+    "max_commits": 5,
+    "max_file_changes": 4
+  },
+  "spec": {
+    "summary": "Document what is public and what stays private.",
+    "expected_outcome": "Readers and agents can see the boundary.",
+    "acceptance_criteria": [
+      "Public pointer is linked",
+      "Private paths are not linked"
+    ]
+  },
+  "attempts": []
+}

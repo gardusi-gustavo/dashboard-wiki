@@ -1,0 +1,18 @@
+{
+  "rank": "1.4",
+  "title": "Add link and anchor checks",
+  "context": "Migrated pages can break links.",
+  "limits": {
+    "max_commits": 5,
+    "max_file_changes": 4
+  },
+  "spec": {
+    "summary": "Add link and anchor validation.",
+    "expected_outcome": "Broken links fail CI.",
+    "acceptance_criteria": [
+      "Checker covers docs",
+      "Anchor checks are included"
+    ]
+  },
+  "attempts": []
+}

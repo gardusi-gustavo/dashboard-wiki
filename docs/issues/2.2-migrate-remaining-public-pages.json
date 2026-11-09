@@ -1,0 +1,18 @@
+{
+  "rank": "2.2",
+  "title": "Migrate remaining public pages",
+  "context": "Some public pages still live in the archived wiki clone.",
+  "limits": {
+    "max_commits": 5,
+    "max_file_changes": 4
+  },
+  "spec": {
+    "summary": "Classify and migrate the remaining pages.",
+    "expected_outcome": "Archived public pages have a home.",
+    "acceptance_criteria": [
+      "Each page is classified",
+      "Private pages move to the vault"
+    ]
+  },
+  "attempts": []
+}
