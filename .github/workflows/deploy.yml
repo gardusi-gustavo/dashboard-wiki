@@ -16,6 +16,8 @@ concurrency:
   cancel-in-progress: false
 jobs:
   deploy:
-    uses: gardusi-gustavo/workflow-devops/.github/workflows/pages.yml@v0.1.0
+    uses: gardusi-gustavo/.github/.github/workflows/reusable-pages.yml@v0.1.1
     with:
       build_command: bash infra/scripts/pages.sh
+      database_repository: gardusi-gustavo/dashboard-wiki
+      database_path: _database

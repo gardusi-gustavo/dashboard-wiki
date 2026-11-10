@@ -1,7 +1,7 @@
 # Data
 
 The source of truth is now `gardusi-gustavo/database` under
-`data/playlists/`. The checked-in `src/data/` tree is a legacy mirror and a
+`src/data/playlists/catalog.json`. The checked-in `src/data/` tree is the
 build-time fallback during the migration.
 
 | File | Holds |

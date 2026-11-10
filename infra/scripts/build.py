@@ -11,11 +11,11 @@ from pathlib import Path
 
 def main() -> int:
     ap = argparse.ArgumentParser()
-    ap.add_argument("--database", required=True)
+    ap.add_argument("--database")
     ap.add_argument("--out", default="dist")
     args = ap.parse_args()
     root = Path(__file__).resolve().parent.parent.parent
-    database = Path(args.database).resolve()
+    database = Path(args.database).resolve() if args.database else None
     out = Path(args.out).resolve()
     if out.exists():
         shutil.rmtree(out)
@@ -23,8 +23,12 @@ def main() -> int:
     docs = root / "docs"
     if docs.is_dir():
         shutil.copytree(docs, out / "docs")
-    data_dir = database / "data/playlists"
-    files = sorted(data_dir.glob("*.json")) if data_dir.is_dir() else []
+    data_dir = (database / "data/playlists") if database else (root / "src/data/playlists")
+    catalog_file = data_dir / "catalog.json"
+    if catalog_file.exists():
+        files = [catalog_file]
+    else:
+        files = sorted(data_dir.glob("20*.json")) if data_dir.is_dir() else []
     catalog = {}
     if files:
         dataset = json.loads(files[-1].read_text(encoding="utf-8"))
@@ -41,7 +45,7 @@ def main() -> int:
 <html lang="en"><head><meta charset="utf-8"><title>wiki</title>
 <style>body{{font-family:system-ui,sans-serif;max-width:70rem;margin:2rem auto;padding:0 1rem}}</style>
 </head><body><h1>wiki</h1>
-<p>Built from <code>gardusi-gustavo/database</code> and the local docs.</p>
+<p>Built from the local playlists catalog and the local docs.</p>
 <h2>Sections</h2><ul>{rows}</ul>
 <h2>Media catalog</h2><ul>{counts}</ul>
 </body></html>
