@@ -1,6 +1,6 @@
 # Data
 
-The source of truth is now `gardusi-gustavo/database` under
+The source of truth is now the local playlists catalog under
 `src/data/playlists/catalog.json`. The checked-in `src/data/` tree is the
 build-time fallback during the migration.
 
