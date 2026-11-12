@@ -18,7 +18,8 @@
     "automation": 2
   },
   "ci": {
-    "profile": "universal"
+    "profile": "universal",
+    "script": "infra/scripts/ci.sh"
   },
   "features": {
     "pages": true,
